@@ -1,0 +1,87 @@
+<!DOCTYPE html> <!-- Declara o documento como HTML5 -->
+<html lang="pt-BR"> <!-- Define o idioma como português brasileiro -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Torna a página responsiva para dispositivos móveis -->
+    <title>Crochê With Me - Welcome!</title> <!-- Define o título da página que aparece na aba do navegador -->
+    <link rel="stylesheet" href="stylesW.css"> <!-- Linka um arquivo CSS externo para estilizar a página -->
+    <script src="script.js"></script>
+</head>
+
+<body> <!-- Início do corpo do documento -->
+    <header> <!-- Cabeçalho da página -->
+        <h1>Crochê With Me</h1> <!-- Título principal da página -->
+        <nav> <!-- Início da navegação -->
+            <ul> <!-- Lista não ordenada para os links de navegação -->
+                <li><a href="#produtos">Produtos</a></li> <!-- Link para a seção de produtos -->
+                <li><a href="#sobre">Sobre Nós</a></li> <!-- Link para a seção "Sobre Nós" -->
+                <li><a href="#contato">Contato</a></li> <!-- Link para a seção de contato -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="produtos"> <!-- Seção de produtos, identificada pelo ID "produtos" -->
+        <h2>Catálogo de Produtos</h2> <!-- Título da seção -->
+        <div class="carrossel-container"> <!-- Div que agrupa os produtos -->
+            <button id="prev" class="nav-btn">&#10094;</button>
+
+            <div class="carrossel">
+                <div class="galeria">
+                    <div class="produto"> <!-- Div de um produto -->
+                        <img src="imagens/produto1.jpg" alt="Cropped de Girassol">
+                        <h3>Cropped de Girassol</h3> <!-- Nome do produto -->
+                        <p>Cropped de crochê de girassol feito a mão.</p> <!-- Descrição do produto -->
+                        <p class="preco">R$ 100,00~120,00</p> <!-- Preço do produto -->
+                        <a href="https://wa.me/15998596770" target="_blank" class="btn">Comprar</a>
+                        <!-- Link para compra via WhatsApp, abre em nova aba -->
+                    </div>
+                    <div class="produto"> <!-- Div de outro produto -->
+                        <img src="imagens/produto2.jpg" alt="Bolsa Pikachu">
+                        <h4>Bolsa do Pikachu</h4> <!-- Nome do produto -->
+                        <p>Bolsa tiracolo/transversal desing do personagem Pikachu.</p> <!-- Descrição do produto -->
+                        <p class="preco">R$ 75,00</p> <!-- Preço do produto -->
+                        <a href="https://wa.me/15998596770" target="_blank" class="btn">Comprar</a>
+                        <!-- Link para compra via WhatsApp, abre em nova aba -->
+                    </div>
+                    <div class="produto"> <!-- Div de outro produto -->
+                        <img src="imagens/produto3.jpg" alt="Begue de sapinho">
+                        <h5>Begue de sapinho</h5> <!-- Nome do produto -->
+                        <p>Bolsa do tipo begue com desing de sapo feita mão.</p> <!-- Descrição do produto -->
+                        <p class="preco">R$ 50,00</p> <!-- Preço do produto -->
+                        <a href="https://wa.me/15998596770" target="_blank" class="btn">Comprar</a>
+                        <!-- Link para compra via WhatsApp, abre em nova aba -->
+                    </div>
+                    <!-- Adicione mais produtos aqui -->
+                    <!-- Comentário que indica onde novos produtos podem ser adicionados -->
+                </div>
+            </div>
+            <button id="next" class="nav-btn">&#10095;</button>
+    </section>
+
+    <section id="sobre"> <!-- Seção "Sobre Nós", identificada pelo ID "sobre" -->
+        <h2>Sobre Nós</h2> <!-- Título da seção -->
+        <p>Bem-vindo à minha lojinha! Meu nome é Maria, iniciei no crochê por hobbie e hoje é uma das minhas paixões!
+            O crochê não apenas é uma arte mas também é bem terapeutico e me ajudou muito a me inspirar, espero que
+            apreciem meu trabalho.</p> <!-- Texto sobre a loja -->
+    </section>
+
+    <section id="contato"> <!-- Seção de contato, identificada pelo ID "contato" -->
+        <h2>Contato</h2> <!-- Título da seção -->
+        <p>Entre em contato comigo via WhatsApp, telefone ou redes sociais!</p> <!-- Texto introdutório da seção -->
+        <ul> <!-- Lista de formas de contato -->
+            <li><a href="https://wa.me/15998596770" target="_blank">WhatsApp</a></li> <!-- Link para WhatsApp -->
+            <li>Telefone:(15)99859-6770</li> <!-- Número de telefone -->
+            <li>E-mail: <a href="mailto: crochewithme1@gmail.com" target="_blank"> Fale conosco
+                    </href>
+            </li> <!-- Endereço de e-mail -->
+        </ul>
+    </section>
+
+    <footer> <!-- Rodapé da página -->
+        <p>&copy; 2025 Crochê With Me - by me.</p> <!-- Informação de copyright -->
+    </footer>
+</body>
+
+</html>

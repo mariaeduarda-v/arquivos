@@ -1,0 +1,149 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.carrossel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.carrossel {
+    width: 300px;
+    /* Define o tamanho do carrossel */
+    overflow: hidden;
+    /* Esconde produtos fora da área visível */
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.galeria {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    /* Suaviza a transição */
+}
+
+.produto {
+    width: 300px;
+    /* Largura de cada produto */
+    text-align: center;
+    padding: 10px;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.nav-btn {
+    background: rgba(156, 207, 234, 0.5);
+    color: rgb(216, 149, 205);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+}
+
+header {
+    background: #5b228d;
+    color: #e6a4e2;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    color: #a2c2c7;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.produto {
+    border: 1px solid #46042a;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+.produto h3 {
+    margin-top: 0;
+}
+
+.preco {
+    font-weight: bold;
+    color: #39052a;
+}
+
+.btn {
+    display: inline-block;
+    background: #d596e5;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #219150;
+}
+
+.galeria {
+    display: flex;
+    width: 1200px;
+    /* Largura total da galeria */
+    transition: transform 0.5s ease-in-out;
+}
+
+.produto {
+    width: 300px;
+    /* Largura de cada produto */
+    text-align: center;
+    padding: 10px;
+}
+
+.carrossel {
+    width: 1200px;
+    /* Largura do carrossel */
+    overflow: hidden;
+    border: 2px solid #df59ae;
+    border-radius: 10px;
+}
+
+footer {
+    background: #5b228d;
+    color: #dd76be;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
